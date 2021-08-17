@@ -1,0 +1,51 @@
+/* nor */
+body, ul, li {
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* cus */
+
+header{
+  flex-basis:200px;
+  height:100vh;
+  padding:15px;
+  position:fixed;
+  z-index:100;
+}
+
+.menu_header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  font-size: 0.7rem;
+}
+
+.box-1{
+  margin-left:200px;
+}
+
+
+.utils {
+  padding:20px;
+  flex-basis:200px;
+  height:100vh;
+  padding-right:15px;
+  position:fixed;
+  z-index:50;
+  right:0;
+}
+
+.menu_right {
+  margin-top: auto;
+  margin-bottom: auto;
+}
