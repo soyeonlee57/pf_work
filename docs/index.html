@@ -2,69 +2,108 @@
 <html lang="ko">
 
 <head>
+  <title>web designer portfolio</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>web designer portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <!-- niceScroll -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+
   <!-- tailwind -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.4/tailwind.min.css">
 
   <!-- swiper -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  
+
   <!-- gasp -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+  <!-- fullpage -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
 
   <link rel="stylesheet" href="style.css">
   <script src="common.js"></script>
 </head>
 
 <body>
-  
 
-  <section class="main-page flex flex-row flex-grow">
-    <header class="flex flex-grow flex-shrink">
-      <div class="logo">
-        <img
-          src="images/logo.png"
-          alt="">
-      </div>
-      <a href="#"> </a>
-      <div class="menu_header">
-        <ul>
-          <li><a href="#" class="home">home</a></li>
-          <li><a href="#">about me</a></li>
-          <li><a href="#">portfolio</a></li>
-          <li><a href="#">artwork</a></li>
-        </ul>
-      </div>
-
-    </header>
-
-    <div class="box-1 flex flex-grow flex-shrink">
-
-
-      <!-- right header  -->
-      <div class="utils flex flex-grow-0 flex-shrink">
-        <div class="menu_right">
+  <div class="site-wrap">
+    <section class="main-page flex flex-row flex-grow">
+      <header class="flex flex-grow flex-shrink">
+        <div class="logo">
+          <img src="images/logo.png" alt="">
+        </div>
+        <a href="#"> </a>
+        <div class="menu_header">
           <ul>
-            <li><a href="#">contact me</a></li>
-            <li><a href="#">guest book</a></li>
+            <li><a href="#section1" class="home"> home</a></li>
+            <li><a href="#section2" class="aboutme">about me</a></li>
+            <li><a href="#section3" class="portfolio">portfolio</a></li>
+            <li><a href="#section4" class="artwork">artwork</a></li>
           </ul>
         </div>
-      </div>
+
+      </header>
+
+      <div class="box-1 flex flex-grow flex-shrink">
 
 
-  </section>
+        <!-- right header  -->
+        <div class="utils flex flex-grow-0 flex-shrink">
+          <div class="menu_right">
+            <ul>
+              <li><a href="#">contact me</a></li>
+              <li><a href="#">guest book</a></li>
+            </ul>
+          </div>
+        </div>
+    </section>
+
+    <div id="fullpage">
+      <section class="section">
+        <!-- Explanation in JS tab -->
+
+<!-- The two texts -->
+<div id="container">
+	<span id="text1"></span>
+	<span id="text2"></span>
+</div>
+
+<!-- The SVG filter used to create the merging effect -->
+<svg id="filters">
+	<defs>
+		<filter id="threshold">
+			<!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+			<feColorMatrix in="SourceGraphic"
+					type="matrix"
+					values="1 0 0 0 0
+									0 1 0 0 0
+									0 0 1 0 0
+									0 0 0 255 -140" />
+		</filter>
+	</defs>
+</svg>
+      </section>
+      <section class="section">
+
+      </section>
+      <section class="section">
+
+      </section>
+      <section class="section">
+
+      </section>
+    </div>
+  </div>
+
+
 </body>
 
 </html>
