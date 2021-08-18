@@ -70,32 +70,75 @@
       <section class="section">
         <!-- Explanation in JS tab -->
 
-<!-- The two texts -->
-<div id="container">
-	<span id="text1"></span>
-	<span id="text2"></span>
-</div>
+        <!-- The two texts -->
+        <div id="container">
+          <span id="text1"></span>
+          <span id="text2"></span>
+        </div>
 
-<!-- The SVG filter used to create the merging effect -->
-<svg id="filters">
-	<defs>
-		<filter id="threshold">
-			<!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
-			<feColorMatrix in="SourceGraphic"
-					type="matrix"
-					values="1 0 0 0 0
+        <!-- The SVG filter used to create the merging effect -->
+        <svg id="filters">
+          <defs>
+            <filter id="threshold">
+              <!-- Basically just a threshold effect - pixels with a high enough opacity are set to full opacity, and all other pixels are set to completely transparent. -->
+              <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
 									0 1 0 0 0
 									0 0 1 0 0
 									0 0 0 255 -140" />
-		</filter>
-	</defs>
-</svg>
+            </filter>
+          </defs>
+        </svg>
       </section>
       <section class="section">
 
       </section>
       <section class="section">
-
+        <section class="section section-1">
+          <div class="con mx-auto">
+            <div class="pf-list mt-2">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="card-img">
+                      <img src="/docs/images/portfolio.png" alt="">
+                    </div>
+                    <span style="font-size:1rem;">
+                      portfolio name
+                    </span>
+                    <br>
+                    <span style="font-size:0.8rem;">
+                      work period
+                    </span>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-img">
+                      <img src="/docs/images/portfolio.png" alt="">
+                    </div>
+                    <span style="font-size:1rem;">
+                      portfolio name
+                    </span>
+                    <br>
+                    <span style="font-size:0.8rem;">
+                      work period
+                    </span>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-img">
+                      <img src="/docs/images/portfolio.png" alt="">
+                    </div>
+                    <span style="font-size:1rem;">
+                      portfolio name
+                    </span>
+                    <br>
+                    <span style="font-size:0.8rem;">
+                      work period
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
       </section>
       <section class="section">
 

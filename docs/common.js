@@ -97,4 +97,15 @@ function animate() {
 
 // Start the animation.
 animate();
+
+// slider
+function SliderBox1__init() {
+  const swiper = new Swiper(".pf-list > .swiper-container", {
+    slidesPerView:1.5,
+    spaceBetween: 30,
+  });
+}
+
+SliderBox1__init();
+
 });

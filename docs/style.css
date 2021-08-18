@@ -122,3 +122,49 @@ header{
 	
 	user-select: none;
 }
+
+/* pf-slider */
+
+/* lib */
+.con {
+  max-width:1200px;
+}
+
+.con-padd{
+  padding-left:var(--con-pad__padding-left);
+  padding-right:var(--con-pad__padding-left);
+}
+
+/* cus */
+:root {
+  --con-padd__padding-left:10px;
+}
+
+.pf-list {
+  padding-left:var(--con-padd__padding-left);
+}
+
+.pf-list > .swiper-container {
+  overflow:visible;
+}
+
+.swiper-wrapper > .swiper-slide > .card-img > img{
+  background-size:cover;
+  background-position:center;      
+}
+
+.swiper-wrapper > .swiper-slide > .card-img > img::after {
+  content:"";
+  display:block;
+  padding-top:calc(100% / 1.8 * 1.5);
+}
+
+.swiper-slide > .card-img:hover > img {
+  transition:transform 0.3s;
+   transform:scale(1.2);
+}
+
+.swiper-slide > .card-img > img {
+  transition:transform 0.3s;
+   transform:scale(1);
+}
