@@ -141,6 +141,19 @@ header {
 /* lib */
 .con {
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-grid {
+  font-size: 0;
+}
+
+.inline-grid>* {
+  font-size: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
 }
 
 .con-padd {
@@ -182,46 +195,22 @@ header {
   transform: scale(1);
 }
 
-/* aw-slider */
-
-/* lib */
-.con_aw {
-  max-width: 1200px;
-  max-height: 500px;
-  margin-left: auto;
-  margin-right: auto;
+.work-list-box > ul > li {
+  width:25%;
 }
 
-.con-padd {
-  padding-left: var(--con-pad__padding-left);
-  padding-right: var(--con-pad__padding-left);
-}
-
-/* cus */
-:root {
-  --con-padd__padding-left: 10px;
-}
-
-.aw-list {
-  padding-left: var(--con-padd__padding-left);
-}
-
-.aw-list>.swiper-container {
-  overflow: visible;
-}
-
-.swiper-wrapper>.swiper-slide>.card-img>img::after {
-  content: "";
+.work-list-box > ul > li > img {
+  width:100%;
   display: block;
-  padding-top: calc(100% / 1.8 * 1.5);
+  padding: 10px;
 }
 
-.swiper-slide>.card-img:hover>img {
+.work-list-box > ul > li:hover > img {
   transition: transform 0.3s;
   transform: scale(1.2);
 }
 
-.swiper-slide>.card-img>img {
+.work-list-box > ul > li:hover > img {
   transition: transform 0.3s;
   transform: scale(1);
 }

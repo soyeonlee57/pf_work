@@ -7,7 +7,6 @@ $(document).ready(function () {
 
 
 	new fullpage('#fullpage', {
-		sectionsColor: ['white', 'white', 'white', 'lightyellow'],
 		anchors: ['section1', 'section2', 'section3', 'section4'],
 	});
 	/*
@@ -113,15 +112,6 @@ $(document).ready(function () {
 
 	}
 
-	
-	function SliderBox2__init() {
-		const swiper = new Swiper(".aw-list > .swiper-container", {
-			slidesPerView: 4,
-      direction: "vertical",
-			mousewheel: true,
-		});
-	}
 	SliderBox1__init();
-	SliderBox2__init();
 
 });
