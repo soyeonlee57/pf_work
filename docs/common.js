@@ -116,8 +116,9 @@ $(document).ready(function () {
 	
 	function SliderBox2__init() {
 		const swiper = new Swiper(".aw-list > .swiper-container", {
-			slidesPerView: 1.5,
-			spaceBetween: 30,
+			slidesPerView: 4,
+      direction: "vertical",
+			mousewheel: true,
 		});
 	}
 	SliderBox1__init();
