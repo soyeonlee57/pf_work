@@ -110,8 +110,17 @@ $(document).ready(function () {
 			slidesPerView: 1.5,
 			spaceBetween: 30,
 		});
+
 	}
 
+	
+	function SliderBox2__init() {
+		const swiper = new Swiper(".aw-list > .swiper-container", {
+			slidesPerView: 1.5,
+			spaceBetween: 30,
+		});
+	}
 	SliderBox1__init();
+	SliderBox2__init();
 
 });
