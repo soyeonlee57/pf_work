@@ -64,6 +64,10 @@ a {
 }
 
 /* cus */
+.site-wrap{
+  width: 1920px;
+  position: relative;
+}
 
 /* fixed menu */
 header {

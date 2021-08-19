@@ -1,5 +1,11 @@
 console.log("loading")
 $(document).ready(function () {
+
+	$(function () {
+    $('body').niceScroll({scrollspeed:10});
+  });
+
+
 	new fullpage('#fullpage', {
 		sectionsColor: ['white', 'white', 'white', 'lightyellow'],
 		anchors: ['section1', 'section2', 'section3', 'section4'],
