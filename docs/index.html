@@ -60,10 +60,7 @@
           <div class="menu_right">
             <ul>
               <li>
-                <a href="#">contact me</a>
-              </li>
-              <li>
-                <a href="#">guest book</a>
+                <a href="#section5">contact me</a>
               </li>
             </ul>
           </div>
@@ -95,7 +92,8 @@
 
       <!-- about me -->
       <section class="section">
-        <img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/aboutme.png" alt="" style="display:block; margin-left:1100px;">
+        <img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/aboutme.png" alt=""
+          style="display:block; margin-left:1100px;">
       </section>
 
       <!-- portfolio -->
@@ -148,20 +146,59 @@
 
       <!-- artwork -->
       <section class="section">
-          <div class="con">
-            <div class="work-list-box">
-              <ul class="flex flex-wrap">
-                <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt=""></li>
-                <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt=""></li>
-                <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt=""></li>
-                <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt=""></li>
-                <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt=""></li>
-                <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt=""></li>
-                <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt=""></li>
-                <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt=""></li>
-              </ul>
-            </div>
+        <div class="con">
+          <div class="work-list-box">
+            <ul class="flex flex-wrap">
+              <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt="">
+              </li>
+              <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt="">
+              </li>
+              <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt="">
+              </li>
+              <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt="">
+              </li>
+              <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt="">
+              </li>
+              <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt="">
+              </li>
+              <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt="">
+              </li>
+              <li><img src="https://rawcdn.githack.com/soyeonlee57/pf_work/master/docs/images/my_artwork.png" alt="">
+              </li>
+            </ul>
           </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="section">
+
+        <div class="con">
+          <form target="_blank" action="https://formspree.io/f/mdoypzaa" onsubmit="sendEmailForm(this); return false;"
+            method="POST">
+            <div style="border:1px solid black; border-radius: 10px; padding:10px; margin-bottom: 50px;">
+              <input autofocus type="email" name="_replyto" placeholder="e-mail">
+            </div>
+            <div style="border:1px solid black; border-radius: 10px; padding:10px; margin-bottom: 50px;">
+              <textarea name="message" style="resize: horizontal;" rows="10" type="text" placeholder="text"></textarea>
+            </div>
+            <!-- 전송 버튼 -->
+            <div style="text-align:right;">
+              <button name="submit1" type="submit" style="background-color:rgb(202, 202, 202); border:1px solid black; border-radius: 10px; padding:0 10px;" >Send</button>
+            </div>
+            <!--
+  <button>Send</button>
+  <input type="submit" value="Send">
+  -->
+
+            <!-- 일반 버튼 -->
+            <!--
+  <button type="button">Send</button>
+  <input type="button" value="Send">
+  -->
+          </form>
+        </div>
+
       </section>
 
     </div>
