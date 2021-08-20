@@ -214,3 +214,8 @@ header {
   transition: transform 0.3s;
   transform: scale(1);
 }
+
+/* about me */
+.aboutme > div > span {
+  margin: 400px;
+}
