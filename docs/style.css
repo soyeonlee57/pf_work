@@ -1,3 +1,19 @@
+/* font */
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html > body {
+  font-family:"Roboto", "GmarketSansMedium";
+}
+
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Raleway';
@@ -199,6 +215,8 @@ header {
   transform: scale(1);
 }
 
+/* art-work */
+
 .work-list-box > ul > li {
   width:25%;
 }
@@ -209,7 +227,7 @@ header {
   padding: 10px;
 }
 
-.work-list-box > ul > li:hover > img {
+.work-list-box > ul > li > img:hover {
   transition: transform 0.3s;
   transform: scale(1.2);
 }
@@ -218,6 +236,3 @@ header {
   transition: transform 0.3s;
   transform: scale(1);
 }
-
-/* about me */
-
