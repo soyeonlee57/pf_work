@@ -49,6 +49,10 @@
 }
 
 /* nor */
+body {
+  width: 1920px;
+}
+
 body,
 ul,
 li {
@@ -216,6 +220,4 @@ header {
 }
 
 /* about me */
-.aboutme > div > span {
-  margin: 400px;
-}
+
