@@ -227,12 +227,15 @@ header {
   padding: 10px;
 }
 
-.work-list-box > ul > li > img:hover {
-  transition: transform 0.3s;
-  transform: scale(1.2);
-}
-
 .work-list-box > ul > li:hover > img {
   transition: transform 0.3s;
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 0.75rem black);
+  z-index: 100;
+}
+
+.work-list-box > ul > li > img {
+  transition: transform 0.3s;
   transform: scale(1);
+  z-index: 0;
 }
