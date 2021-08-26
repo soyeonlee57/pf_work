@@ -156,7 +156,10 @@ header {
   user-select: none;
 }
 
-/* pf-slider */
+/* pf */
+.portfolio_button > span:hover > a {
+  font-weight: bold;
+}
 
 /* lib */
 .con {
@@ -199,7 +202,7 @@ header {
 
 .pf-list>.card-img:hover>img {
   transition: transform 0.3s;
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
 .pf-list>.card-img>img {
