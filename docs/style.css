@@ -10,7 +10,7 @@
 }
 
 html > body {
-  font-family:"Roboto", "GmarketSansMedium";
+  font-family:"GmarketSansMedium";
 }
 
 
@@ -190,27 +190,19 @@ header {
   padding-left: var(--con-padd__padding-left);
 }
 
-.pf-list>.swiper-container {
-  overflow: visible;
-}
 
-.swiper-wrapper>.swiper-slide>.card-img>img {
-  background-size: cover;
-  background-position: center;
-}
-
-.swiper-wrapper>.swiper-slide>.card-img>img::after {
+.pf-list >.card-img>img::after {
   content: "";
   display: block;
   padding-top: calc(100% / 1.8 * 1.5);
 }
 
-.swiper-slide>.card-img:hover>img {
+.pf-list>.card-img:hover>img {
   transition: transform 0.3s;
   transform: scale(1.2);
 }
 
-.swiper-slide>.card-img>img {
+.pf-list>.card-img>img {
   transition: transform 0.3s;
   transform: scale(1);
 }
