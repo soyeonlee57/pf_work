@@ -236,3 +236,8 @@ header {
 }
 
 /* contactme */
+.contactme > div > .click:hover {
+  background-color: #dedede; 
+  padding: 5px; 
+  border-radius: 30px;
+}
