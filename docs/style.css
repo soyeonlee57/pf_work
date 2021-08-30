@@ -216,20 +216,20 @@ header {
   width:25%;
 }
 
-.work-list-box > ul > li > img {
+.work-list-box > ul > li > a > img {
   width:100%;
   display: block;
   padding: 10px;
 }
 
-.work-list-box > ul > li:hover > img {
+.work-list-box > ul > li:hover > a > img {
   transition: transform 0.3s;
-  transform: scale(1.2);
-  filter: drop-shadow(0 0 0.75rem black);
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 0.45rem rgb(165, 165, 165));
   z-index: 100;
 }
 
-.work-list-box > ul > li > img {
+.work-list-box > ul > li > a > img {
   transition: transform 0.3s;
   transform: scale(1);
   z-index: 0;
