@@ -106,9 +106,6 @@ header {
   padding: 0px;
 }
 
-.menu_header > ul > li:hover > .home {
-  content: "홈";
-}
 
 .box-1 {
   margin-left: 200px;
