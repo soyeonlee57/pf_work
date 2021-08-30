@@ -106,6 +106,9 @@ header {
   padding: 0px;
 }
 
+.menu_header > ul > li:hover > .home {
+  content: "홈";
+}
 
 .box-1 {
   margin-left: 200px;
@@ -240,4 +243,5 @@ header {
   background-color: #dedede; 
   padding: 5px; 
   border-radius: 30px;
+  filter: drop-shadow(0 0 0.45rem rgb(165, 165, 165));
 }
