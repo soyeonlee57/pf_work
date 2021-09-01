@@ -98,6 +98,12 @@ header {
   z-index: 100;
 }
 
+li.active > a {
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-position:under;
+}
+
 .menu_header {
   display: flex;
   flex-direction: column;
@@ -108,6 +114,8 @@ header {
 
 .menu_header > ul > li > a {
   display:block;
+  padding:5px 0;
+  position: relative;
 }
 
 .menu_header > ul > li > a > span:first-child {
