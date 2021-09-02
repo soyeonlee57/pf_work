@@ -104,17 +104,6 @@ $(document).ready(function () {
 	// Start the animation.
 	animate();
 
-	// slider
-	function SliderBox1__init() {
-		const swiper = new Swiper(".pf-list > .swiper-container", {
-			slidesPerView: 1.5,
-			spaceBetween: 30,
-		});
-
-	}
-
-	SliderBox1__init();
-
 	function sendEmailForm(form) {
 		if ( form._replyto.value.length == 0 ) {
 			alert('이메일 주소를 입력해주세요.');
