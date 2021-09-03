@@ -130,22 +130,6 @@ li.active > a {
   display:none;
 }
 
-.menu_right > ul > li > a {
-  display:block;
-}
-
-.menu_right > ul > li > a > span:first-child {
-  display:none;
-}
-
-.menu_right > ul > li:hover > a > span:first-child {
-  display:block;
-}
-
-.menu_right > ul > li:hover > a > span:last-child {
-  display:none;
-}
-
 
 .box-1 {
   margin-left: 200px;
@@ -165,6 +149,26 @@ li.active > a {
 .menu_right {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.menu_right > ul > li > a {
+  text-align: center;
+  display:block;
+  padding:5px 0;
+  position: relative;
+  width: 100px;
+}
+
+.menu_right > ul > li > a > span:first-child {
+  display:none;
+}
+
+.menu_right > ul > li:hover > a > span:first-child {
+  display:block;
+}
+
+.menu_right > ul > li:hover > a > span:last-child {
+  display:none;
 }
 
 /* 1st page */
