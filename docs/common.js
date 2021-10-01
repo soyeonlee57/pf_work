@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 
 	new fullpage('#fullpage', {
-		anchors: ['section1', 'section2', 'section3', 'section4','section5','section6'],
+		anchors: ['section1', 'section2', 'section3', 'section4','section5','section6','section7','section8'],
 		menu: ".menu .menu_header , .utils .menu_right"
 	});
 	/*
