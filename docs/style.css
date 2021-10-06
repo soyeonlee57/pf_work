@@ -290,6 +290,54 @@ li.active > a {
   z-index: 0;
 }
 
+/* coding-work */
+
+.cod-list-box > ul > li {
+  width:25%;
+}
+
+.cod-list-box > ul > li > a > img {
+  width:100%;
+  display: block;
+  padding: 10px;
+}
+
+.cod-list-box > ul > li:hover > a > img {
+  transition: transform 0.3s;
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 0.45rem rgb(165, 165, 165));
+  z-index: 100;
+  opacity: 0.8;
+}
+
+.cod-list-box > ul > li > a > img {
+  transition: transform 0.3s;
+  transform: scale(1);
+  z-index: 0;
+}
+
+.cod-list-box > ul > li > a {
+  position: relative;
+}
+
+.cod-list-box > ul > li > a > .addi {
+  z-index: 100;
+  color:black;
+  padding: 10px;
+  border-radius: 30px;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  background-color: #f9f9f9;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.cod-list-box > ul > li:hover > a > .addi {
+  opacity:1;
+}
+
 /* button */
 .mybutton {
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
